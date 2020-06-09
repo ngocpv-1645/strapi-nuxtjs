@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div v-for="hero in heroes"
-        v-if="hero.image"
+    <div
+        v-if="hero[0].image"
         id="hero"
         class=" uk-section uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding"
-        :data-src="hero.image.url"
+        :data-src="hero[0].image.url"
         uk-img>
       >
       <h1>
