@@ -1,0 +1,11 @@
+query Heroes {
+  heroes {
+    id
+    title
+    slug
+    button
+    image {
+      url
+    }
+  }
+}
