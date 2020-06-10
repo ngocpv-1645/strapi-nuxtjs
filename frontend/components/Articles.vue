@@ -20,6 +20,7 @@
                   class="uk-text-uppercase"
                 >
                   {{ article.category.name }}
+
                 </p>
                 <p id="title" class="uk-text-large">{{ article.title }}</p>
               </div>
