@@ -28,6 +28,8 @@ import Articles from '~/components/Articles'
 
 export default {
   data() {
+    console.log('this is home page');
+    conssole.log(articles);
     return {
       articles: [],
       heroes: [],
@@ -42,7 +44,6 @@ export default {
       prefetch: true,
       query: articlesQuery,
       variables () {
-        console.log('this is home page')
         return { id: parseInt(this.$route.params.id) }
       }
     },
