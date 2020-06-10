@@ -7,7 +7,6 @@
         :data-src="hero.image.url"
         uk-img>
       >
-
       <h1>
         {{hero.title}}
       </h1>
