@@ -49,7 +49,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["@nuxtjs/apollo", "@nuxtjs/markdownit"],
+  modules: [
+    "@nuxtjs/apollo",
+    "@nuxtjs/markdownit", // Simple usage
+    '@nuxtjs/component-cache'
+  ],
   markdownit: {
     preset: "default",
     linkify: true,
