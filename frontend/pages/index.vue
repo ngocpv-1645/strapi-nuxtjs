@@ -42,6 +42,7 @@ export default {
       prefetch: true,
       query: articlesQuery,
       variables () {
+        console.log('this is home page')
         return { id: parseInt(this.$route.params.id) }
       }
     },
