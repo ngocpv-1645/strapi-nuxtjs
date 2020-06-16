@@ -8,7 +8,7 @@
     "develop": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc17",
