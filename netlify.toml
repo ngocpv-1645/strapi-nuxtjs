@@ -1,7 +1,7 @@
 [build]
   base = "frontend/"
   publish = "dist/"
-  command = "npm run build"
+  command = "yarn genarate"
 
 [template.environment]
   API_URL = "API_URL"

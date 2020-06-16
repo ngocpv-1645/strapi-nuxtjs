@@ -21,7 +21,6 @@
           </ul>
         </div>
     </nav>
-
     <nuxt />
   </div>
 </template>
